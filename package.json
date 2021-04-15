@@ -1,0 +1,17 @@
+{
+  "name": "pekocko",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "build": "(cd backend && npm install) & (cd public && npm install && exit)",
+    "start": "(node backend/server) & (cd public && npm run start)"
+  },
+  "author": "Zuher",
+  "dependencies": {
+    "apibackend": "file:backend",
+    "babel-eslint": "^10.1.0",
+    "eslint-config-prettier": "^8.2.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "the-hottest-reviews": "file:public"
+  }
+}

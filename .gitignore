@@ -153,7 +153,7 @@ workspace.code-workspace
 .vscode
 
 lib
-node_modules
-app/package-lock.json
-~$PlanDeTest.xlsx
-app/.eslintrc.json
+**/node_modules
+**/package-lock.json
+**/.eslintrc.json
+.env

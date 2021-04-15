@@ -11,12 +11,12 @@ passSchema
   .has()
   .lowercase()
   .has()
-  .digits(2)
+  .digits(1)
   .has()
   .not()
   .spaces()
   .is()
   .not()
-  .oneOf(["Passw0rd", "Password123"]);
+  .oneOf(['Passw0rd', 'Password123']);
 
 module.exports = passSchema;
