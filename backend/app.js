@@ -1,10 +1,8 @@
 const express = require('express');
-const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const path = require('path');
 const mongoSanitize = require('express-mongo-sanitize');
 const helmet = require('helmet');
-const morgan = require('morgan');
 
 let Ddos = require('ddos');
 let ddos = new Ddos({ burst: 10, limit: 15 });
